@@ -975,7 +975,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #ffffff;
+				border:none;
 				border-left-width: 0;
 				border-top-width: 0;
 				border-collapse:collapse;
