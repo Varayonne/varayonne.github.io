@@ -974,18 +974,18 @@ input, select, textarea {
 			border-collapse: collapse;
 		}
 
-			table.alt tbody tr td {
+			table.alt tbody tr td th{
 				border:none;
 				border-left-width: none;
 				border-top-width: none;
 				border-collapse:collapse;
 			}
 
-				table.alt tbody tr td:first-child {
+				table.alt tbody th tr td:first-child {
 					border-left-width: none;
 				}
 
-			table.alt tbody tr:first-child td {
+			table.alt tbody th tr:first-child td {
 				border-top-width: none;
 			}
 
