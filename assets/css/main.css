@@ -971,13 +971,14 @@ input, select, textarea {
 		}
 
 		table.alt {
-			border-collapse: separate;
+			border-collapse: collapse;
 		}
 
 			table.alt tbody tr td {
 				border: solid 1px #ffffff;
 				border-left-width: 0;
 				border-top-width: 0;
+				border-collapse:collapse;
 			}
 
 				table.alt tbody tr td:first-child {
