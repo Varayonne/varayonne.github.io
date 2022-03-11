@@ -972,31 +972,37 @@ input, select, textarea {
 
 		table.alt {
 			border-collapse: collapse;
-			border: none;
+			border:none;
+			border-style:none;
 		}
 
-			table.alt tbody tr td th{
-				border:none;
-				border-left-width: none;
-				border-top-width: none;
-				border-collapse:collapse;
+			table.alt tbody tr td{
+				border: none;
+				border-top-style: hidden;
+				border-bottom-style: hidden;
+			}
+			
+			table.alt th{
+				border-top-style: hidden;
+				border-bottom-style: hidden;
 			}
 
-				table.alt tbody th tr td:first-child {
-					border-left-width: none;
+				table.alt tbody tr td:first-child {
+					border-left-width: 0;
 				}
 
-			table.alt tbody th tr:first-child td {
-				border-top-width: none;
+			table.alt tbody tr:first-child td {
+				border-top-width: 0;
 			}
 
 			table.alt thead {
-				border-bottom: none;
+				border-bottom-style: hidden;
 			}
 
 			table.alt tfoot {
-				border-top: none;
+				border-top: 0;
 			}
+
 
 /* Button */
 
