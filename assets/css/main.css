@@ -734,8 +734,8 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 1em 0;
-		padding-left: 1em;
+		margin: 0 0 0.50em 0;
+		padding-left: .75em;
 	}
 
 		ul li {
@@ -758,7 +758,7 @@ input, select, textarea {
 				}
 
 	dl {
-		margin: 0 0 0rem 0;
+		margin: 0 0 0 0;
 	}
 
 		dl dt {
@@ -769,6 +769,7 @@ input, select, textarea {
 
 		dl dd {
 			margin-left: 2rem;
+
 		}
 
 /* Actions */
@@ -936,7 +937,7 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2rem 0;
+		margin: 0 0 0 0;
 		width: 100%;
 	}
 
