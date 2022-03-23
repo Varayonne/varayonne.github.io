@@ -1352,8 +1352,10 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 2px #ffffff;
 			border-radius: 4px;
+			font-weight: 700;
+			color: #ffffff;
 		}
 
 			#header nav ul li {
